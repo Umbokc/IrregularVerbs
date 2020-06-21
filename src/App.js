@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
 
-function App() {
+const App = () => {
+  const sendForm = (e) => {
+    e.preventDefault();
+    console.log("Sending from", e.target.value.value);
+  };
+
+  // random 0 to 2
+  // Math.floor(Math.random()*3)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <form className="inputs" onSubmit={(e) => sendForm(e)}>
+        <div className="input">take</div>
+        —
+        <input className="input" name="value" />—
+        <div className="input">taken</div>
+      </form>
     </div>
   );
-}
+};
 
 export default App;
