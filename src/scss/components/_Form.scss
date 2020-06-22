@@ -1,0 +1,71 @@
+.Form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 320px;
+  background: whitesmoke;
+  box-shadow: 0 0 500px lighten(deepskyblue, 25%), 0 0 25px white;
+  border: 2px solid #333;
+  border-radius: 4px;
+  margin: auto;
+  .input {
+    padding: 20px;
+    font-size: 24px;
+    display: flex;
+    input {
+      text-transform: lowercase;
+      border: 2px solid lightgrey;
+      transition: 0.3s;
+      &:hover,
+      &:focus {
+        border-radius: 4px;
+        border-color: #333;
+      }
+      &:focus {
+        outline: none;
+      }
+      &.error {
+        border-color: lighten(red, 15%);
+        background: lighten(red, 25%);
+      }
+    }
+    input,
+    span {
+      display: inline-block;
+      flex: 1;
+      text-align: center;
+    }
+  }
+  .buttons {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    button {
+      cursor: pointer;
+      padding: 10px 20px;
+      border: 2px solid black;
+      border-radius: 10px;
+      transition: 0.3s;
+      &:hover {
+        border-radius: 20px;
+      }
+      &:focus {
+        outline: none;
+      }
+      &.check {
+        color: white;
+        background: linear-gradient(green, darken(green, 20%));
+      }
+      &.skip {
+        color: white;
+        text-shadow: 1px 2px 3px black;
+        background: linear-gradient(red, black);
+      }
+      &:disabled {
+        opacity: 0.8;
+        border-radius: 10px;
+      }
+    }
+  }
+}
