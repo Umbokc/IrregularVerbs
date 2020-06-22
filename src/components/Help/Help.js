@@ -9,7 +9,7 @@ const Help = ({ showHelp, setShowHelp }) => (
       <p>This app will help you master irregular verbs.</p>
       <p>
         Just type missing word and click 'check' and the app will indicate if
-        the choosen word was correct. If you are not sure you can click 'skip'
+        the choosen word was correct. If you are not sure you can click a 'skip'
         button and you'll get a correct answer
       </p>
       <p>Have fun!</p>
