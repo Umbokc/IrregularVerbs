@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e172274.chunk.css",
+    "main.js": "/static/js/main.ddcd7edf.chunk.js",
+    "main.js.map": "/static/js/main.ddcd7edf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.689802b0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.689802b0.js.map",
+    "static/js/2.76363ced.chunk.js": "/static/js/2.76363ced.chunk.js",
+    "static/js/2.76363ced.chunk.js.map": "/static/js/2.76363ced.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e39e79ab83d05a6f95e87cd7fbda9560.js": "/precache-manifest.e39e79ab83d05a6f95e87cd7fbda9560.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7e172274.chunk.css.map": "/static/css/main.7e172274.chunk.css.map",
+    "static/js/2.76363ced.chunk.js.LICENSE.txt": "/static/js/2.76363ced.chunk.js.LICENSE.txt",
+    "static/media/close-mark.png": "/static/media/close-mark.e2148c85.png",
+    "static/media/question-mark.png": "/static/media/question-mark.6207b3dc.png",
+    "static/media/sound_failure.mp3": "/static/media/sound_failure.7768c1d0.mp3",
+    "static/media/sound_success.mp3": "/static/media/sound_success.dcbb5b43.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.689802b0.js",
+    "static/js/2.76363ced.chunk.js",
+    "static/css/main.7e172274.chunk.css",
+    "static/js/main.ddcd7edf.chunk.js"
+  ]
+}
