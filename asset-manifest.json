@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/IrregularVerbs/static/css/main.7e172274.chunk.css",
-    "main.js": "/IrregularVerbs/static/js/main.6b6e8638.chunk.js",
-    "main.js.map": "/IrregularVerbs/static/js/main.6b6e8638.chunk.js.map",
+    "main.css": "/IrregularVerbs/static/css/main.72ccbf09.chunk.css",
+    "main.js": "/IrregularVerbs/static/js/main.083cfc8f.chunk.js",
+    "main.js.map": "/IrregularVerbs/static/js/main.083cfc8f.chunk.js.map",
     "runtime-main.js": "/IrregularVerbs/static/js/runtime-main.99905a05.js",
     "runtime-main.js.map": "/IrregularVerbs/static/js/runtime-main.99905a05.js.map",
     "static/js/2.76363ced.chunk.js": "/IrregularVerbs/static/js/2.76363ced.chunk.js",
     "static/js/2.76363ced.chunk.js.map": "/IrregularVerbs/static/js/2.76363ced.chunk.js.map",
     "index.html": "/IrregularVerbs/index.html",
-    "precache-manifest.af24a6bc979834a5c717d2e74a76150c.js": "/IrregularVerbs/precache-manifest.af24a6bc979834a5c717d2e74a76150c.js",
+    "precache-manifest.c09d6f73964c14d5a5d17b30f7c038d6.js": "/IrregularVerbs/precache-manifest.c09d6f73964c14d5a5d17b30f7c038d6.js",
     "service-worker.js": "/IrregularVerbs/service-worker.js",
-    "static/css/main.7e172274.chunk.css.map": "/IrregularVerbs/static/css/main.7e172274.chunk.css.map",
+    "static/css/main.72ccbf09.chunk.css.map": "/IrregularVerbs/static/css/main.72ccbf09.chunk.css.map",
     "static/js/2.76363ced.chunk.js.LICENSE.txt": "/IrregularVerbs/static/js/2.76363ced.chunk.js.LICENSE.txt",
     "static/media/close-mark.png": "/IrregularVerbs/static/media/close-mark.e2148c85.png",
     "static/media/question-mark.png": "/IrregularVerbs/static/media/question-mark.6207b3dc.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.99905a05.js",
     "static/js/2.76363ced.chunk.js",
-    "static/css/main.7e172274.chunk.css",
-    "static/js/main.6b6e8638.chunk.js"
+    "static/css/main.72ccbf09.chunk.css",
+    "static/js/main.083cfc8f.chunk.js"
   ]
 }
