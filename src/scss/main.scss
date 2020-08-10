@@ -2,12 +2,11 @@
 @import "responsive";
 
 body {
-  background: black;
 }
 
 .App {
   font-size: 20px;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Open Sans",sans-serif;
   @import "./components/Form";
   @import "./components/Help";
 }

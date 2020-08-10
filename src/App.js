@@ -39,7 +39,7 @@ const App = () => {
   };
 
   const check = () => {
-    if (text.toLowerCase() === randomVerb[randomWord]) {
+    if (randomVerb[randomWord].includes(text.toLowerCase())) {
       generateSet();
       playSound(goodSound);
     } else {
@@ -63,7 +63,7 @@ const App = () => {
     playSound(baddSound);
   };
 
-  const RandomVerbs = [0, 1, 2].map((x) =>
+  const RandomVerbs = [0, 1, 2, 3].map((x) =>
     randomWord === x ? (
       <input
         type="text"
@@ -74,7 +74,7 @@ const App = () => {
         onChange={(e) => setText(e.target.value)}
       />
     ) : (
-      <span key={x}>{randomVerb[x]}</span>
+      <span key={x}>{(randomVerb[x] || []).join(', ')}</span>
     )
   );
 
@@ -90,7 +90,7 @@ const App = () => {
       <Help showHelp={showHelp} setShowHelp={setShowHelp} />
 
       {/* Features to implement
-        
+
         write game instructions
         mobile test
       */}
